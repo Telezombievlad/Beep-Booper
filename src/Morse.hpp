@@ -2,6 +2,7 @@
 #define HEADER_GUARD_BOOP_BEEPER_MORSE_HPP_INCLUDED
 
 #include "SDL_support/MySDL_Render.hpp"
+#include "SDL_support/MySDL_Keyboard.hpp"
 
 // Morse table:
 // '.' - dot

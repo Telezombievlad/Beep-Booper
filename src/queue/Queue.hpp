@@ -21,7 +21,7 @@ namespace VaQueue
 
 				virtual Data_t& get(size_t index) = 0;
 
-				virtual Data_t&& remove(size_t index) = 0
+				virtual Data_t&& remove(size_t index) = 0;
 		};
 
 		template <typename Data_t, size_t capasity_>

@@ -102,7 +102,7 @@ namespace VaExc
 		{
 			const char* file;
 
-			explicit constexpr ArgFilename(const char* filename) :
+			constexpr ArgFilename(const char* filename) :
 				file (filename)
 			{}
 		};
@@ -115,7 +115,7 @@ namespace VaExc
 		{
 			const char* func;
 
-			explicit constexpr ArgFunction(const char* funcName) :
+			constexpr ArgFunction(const char* funcName) :
 				func (funcName)
 			{}
 		};
@@ -128,7 +128,7 @@ namespace VaExc
 		{
 			size_t line;
 
-			explicit constexpr ArgLine(size_t lineNum) :
+			constexpr ArgLine(size_t lineNum) :
 				line (lineNum)
 			{}
 		};
