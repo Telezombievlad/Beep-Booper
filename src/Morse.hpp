@@ -1,9 +1,6 @@
 #ifndef HEADER_GUARD_BOOP_BEEPER_MORSE_HPP_INCLUDED
 #define HEADER_GUARD_BOOP_BEEPER_MORSE_HPP_INCLUDED
 
-#include "SDL_support/MySDL_Render.hpp"
-#include "SDL_support/MySDL_Keyboard.hpp"
-
 // Morse table:
 // '.' - dot
 // '-' - dash
@@ -56,10 +53,10 @@ MorseCode MORSE_TABLE[36] =
 
 const size_t MORSE_INDEX_ZERO = 26;
 
-MorseCode MORSE_SPACE_IN_LETTER   = "_";
-MorseCode MORSE_SPACE_IN_WORD     = " ";
-MorseCode MORSE_SPACE_IN_SENTENCE = "<";
-MorseCode MORSE_UNKNOWN           = "!";
+const MorseCode MORSE_SPACE_IN_LETTER   = "_";
+const MorseCode MORSE_SPACE_IN_WORD     = " ";
+const MorseCode MORSE_SPACE_IN_SENTENCE = "<";
+const MorseCode MORSE_UNKNOWN           = "!";
 
 // Morse unit of time
 const unsigned MORSE_TIME_UNIT = 100; // milliseconds
